@@ -1,10 +1,11 @@
-<html> 
+<html lang="pt"> 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Descubra o mundo da Fórmula 1 — velocidade, tecnologia e emoção em cada curva" >
   <title>Fórmula 1 — O Pináculo do Automobilismo</title>
-  <link rel="stylesheet" href="style_erros.css">
+  <!-- fechamento da tag link-->
+  <link rel="stylesheet" href="style_erros.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&family=Orbitron:wght@700;900&display=swap" rel="stylesheet" />
@@ -73,7 +74,7 @@
           <p class="section-desc">A Fórmula 1 é o campeonato de automobilismo mais prestigiado do mundo, reunindo as melhores tecnologias, os melhores engenheiros e os pilotos mais talentosos do planeta.</p>
         </div>
         <div class="sobre__grid">
-          <!-- Estrutura ajustada para melhorar semântica (uso correto de <article>)-->
+          <!-- uso semântico <article>-->
           <article class="sobre__card">
             <div class="sobre__icon">&#9889;</div>
             <h3>Tecnologia de Ponta</h3>
@@ -98,7 +99,7 @@
     <section class="destaque">
       <!-- Uso semantido da tag figure-->
       <figure >
-        <!-- Troquei o link das imagem-->
+        <!-- Troquei o link da imagem e adionei o atributo 'alt'-->
           <img
             src="https://cdn-8.motorsport.com/images/amp/0qXxpXg6/s1000/2024-liveries-full.webp"
             alt="Monolugares das 10 equipas da Fórmula 1 2024 alinhados"
@@ -118,7 +119,7 @@
           <h2 class="section-title">As Equipas da Grelha</h2>
           <p class="section-desc">Dez equipas de construtores competem pelo título mundial, cada uma com a sua filosofia de design e estratégia de corrida.</p>
         </div>
-        <!-- Estrutura ajustada para melhorar semântica (uso correto de <article>) -->
+        <!-- uso semântico da tag <article> -->
         <div class="equipas__grid">
           <article class="equipa-card equipa-card--redbull">
             <div class="equipa-card__color"></div>
@@ -181,7 +182,7 @@
           <p class="section-desc section-desc--light">De ruas estreitas a circuitos permanentes, cada pista tem a sua personalidade e desafios únicos.</p>
         </div>
         <div class="circuitos__grid">
-          <!-- Estrutura ajustada para melhorar semântica (uso correto de <article>) -->
+          <!-- uso semântico da tag <article> -->
           <!-- Troquei o link das imagens-->
           <article class="circuito-card">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Circuit_Monaco.svg/3840px-Circuit_Monaco.svg.png" alt="Circuito de Mónaco" />
@@ -231,7 +232,7 @@
           <h2 class="section-title">Lendas do Pódio</h2>
           <p class="section-desc">Os pilotos mais titulados da história da Fórmula 1, que definiram épocas e inspiraram gerações.</p>
         </div>
-        <!-- Estrutura ajustada para melhorar semântica (uso correto de <article>) -->
+        <!-- uso semântico da tag <article> -->
         <!-- Troquei o link das imagens-->
         <div class="podio__grid">
           <article class="piloto-card">
@@ -287,7 +288,7 @@
           <h2>Fique a par de tudo</h2>
           <p>Subscreva a nossa newsletter e receba as últimas notícias, resultados e análises da Fórmula 1 diretamente no seu email.</p>
           <form class="newsletter__form" action="#" method="post">
-             <!-- A label não estava conectada ao input por isso: -->
+             <!-- A label não estava conectada ao input, não tinha o atributo 'for'-->
             <label for="email-input">Endereço de email</label>
             <div class="newsletter__form-row">
               <!-- O tipo correto do input email-->
@@ -309,7 +310,7 @@
       <nav class="footer__nav">
         <h4>Navegação</h4>
         <ul>
-          <!-- Mal fechamento do </a> -->
+          <!-- fechamento da tag </a> -->
           <li><a href="#sobre">Sobre a F1</a></li>
           <li><a href="#equipas">Equipas</a></li>
           <li><a href="#circuitos">Circuitos</a></li>
