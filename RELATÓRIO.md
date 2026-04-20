@@ -2,7 +2,9 @@
 ## Visão Geral
 Este relatório documenta todas as correções realizadas no ficheiro HTML original, com base nos comentários inseridos no código corrigido.
 
-> Obs: Este relatório foi gerado com auxílio de IA
+> ***Obs:*** Este relatório foi gerado com auxílio de IA
+
+> **Nota:** Não encontrei erros no ficheiro de CSS
 
 ---
 
